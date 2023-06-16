@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>intra links</title>
+    <style>
+         .cource{
+            border: 2px black solid ;
+            margin-bottom: 30px;
+            margin-top: 70px;
+            padding: 50px;
+         }
+         ul{
+            display: flex;
+            margin-left: 20px;
+            padding: 20px;
+         }
+         li{
+            list-style: none;
+            margin-left: 20px;
+            align-content: center;
+         }
+         .cource:target{
+            color:red;
+            background-color: aqua;
+         }
+         a{
+            color: brown;
+            text-decoration: none;
+         }
+        .cource:hover{
+            color: brown;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li><a href="#html">HTML</a></li>
+            <li><a href="#css">CSS</a></li>
+            <li><a href="#js">JS</a></li>
+        </ul>
+    </div>
+    <div class="cource" id="html">
+       <dl>
+        <dt>HTML</dt>
+        <dd>Hyper text mark up language</dd>
+       </dl>
+    </div>
+    <div class="cource" id="css">
+        <dl>
+         <dt>CSS</dt>
+         <dd>Cascading style sheet</dd>
+        </dl>
+     </div>
+     <div class="cource" id="js">
+        <dl>
+         <dt>JS</dt>
+         <dd>Java script</dd>
+        </dl>
+     </div>
+    
+</body>
+</html>
